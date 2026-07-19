@@ -1,12 +1,35 @@
 # AIML
 
+Good catch to double-check — let me be honest: no, not fully. Comparing against the actual required elements from the Professional Portfolio guidelines, my README is missing two sections and merges a couple I should have kept separate:
+
+| Required element | In my README? |
+|---|---|
+| Title | ✅ |
+| Introduction | ✅ |
+| **Description** | ❌ Missing |
+| Objective | ✅ |
+| **Process** | ❌ Missing |
+| Tools & Technologies | ✅ |
+| Value Proposition — Unique Value | ⚠️ Present but not separated |
+| Value Proposition — Relevance | ⚠️ Present but not separated |
+| References | ✅ |
+
+Here's the corrected version with everything included:
+
+```markdown
 # Machine Learning vs. Deep Learning — Comparative Case Analysis
 
 ## Introduction
 A written analysis comparing when to use traditional machine learning versus deep learning, grounded in two real-world applications.
 
+## Description
+This report examines two contrasting AI/ML use cases — house price prediction using traditional machine learning, and autonomous driving using deep learning — analyzing why each approach is suited to its problem and why the alternative approach would not be.
+
 ## Objective
 To demonstrate the ability to reason about tool selection in AI/ML — not just implement a model, but justify why it's the right one for a given problem.
+
+## Process
+Selected one machine learning example and one deep learning example from course material, researched a real-world application for each, and analyzed the suitability of each approach against the structure of the data, the interpretability requirements, and the stakes involved in getting the decision wrong.
 
 ## Example 1: Machine Learning — House Price Prediction
 **Algorithm:** Linear Regression
@@ -31,7 +54,12 @@ Machine learning is well-suited to structured, interpretable problems with well-
 Research and analytical writing (no coding tools used for this artifact).
 
 ## Value Proposition
-Demonstrates conceptual fluency that complements my hands-on AI chatbot project — showing I can both build AI tools and reason critically about which technical approach fits a given business problem.
+**Unique Value:** Demonstrates conceptual fluency and critical technical reasoning — the ability to evaluate and justify AI/ML tool selection, not just implement a model.
+
+**Relevance:** For employers evaluating data/AI talent, this complements my hands-on AI chatbot project by showing range: I can both build AI tools and reason critically about which technical approach fits a given business problem, which matters for roles where technology decisions carry real cost and risk tradeoffs.
 
 ## References
 Course lesson materials — Types of Machine Learning; Machine Learning vs. Deep Learning lesson, AIML-500, Indiana Wesleyan University.
+```
+
+Use this version instead — it now matches the same structure your ML Chatbot artifact used, just adapted for a repo README instead of an inline card.
